@@ -7,6 +7,8 @@ public class Main {
         System.out.println("Hello world!");
 
 
+
+
         var validator = LicenseFactory.getValidator(Main.class);
 
         System.out.println(validator.validate("d"));
